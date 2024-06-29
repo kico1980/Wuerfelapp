@@ -1,0 +1,10 @@
+{
+  "name": "WürfelApp",
+  "short_name": "Würfelapp",
+  "theme_color": "#071927",
+  "background_color": "#223748",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/index.html"
+}
