@@ -1,0 +1,76 @@
+
+
+.background{
+background-image:url("pictures/Würfel.jpg");
+background-position-x:center;
+background-position-y: bottom;
+}
+
+.Zahl{ font-size: 100px;
+color: hsl(80, 41%, 48%);
+display:flex;
+justify-content: center;
+
+
+
+}
+.txt1{
+    background-color:transparent;
+    color:white;
+    text-align: center;
+}
+
+.txt2{
+    background-color:transparent;
+    color:rgb(32, 32, 88);
+    text-align: center;
+}
+
+.feld1{
+    background-color:transparent;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 50px;
+    font-family: Times;
+    align-content: center;
+    color: white;
+    width: 350px;
+}
+
+.pict{
+    align-items:center;
+    width: 210 px;
+    height: 210 px;
+    padding: 20 px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.Knopf{
+    text-align:center;
+}
+
+.text{
+    background-color:transparent;
+    color:white;
+    text-align: right;
+    font-size: 30px;
+}
+
+        /* Stil für den Button */
+        .link-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF; /* Bootstrap Blau */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none; /* Entfernt die Unterstreichung */
+            align-items:center;
+        }
+
+        .link-button:hover {
+            background-color: #0056b3; /* Dunklerer Blauton beim Hover */
+        }
