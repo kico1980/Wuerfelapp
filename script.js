@@ -47,7 +47,14 @@ function bildWechseln(istGedrueckt) {
       Zeichen.innerHTML = `?`;
       return;
     }
-    
+
+    const audio = document.getElementById('diceSound');
+
+    // Audio einmal abspielen
+    audio.play();
+    for (let i = 1; i <= 20; i++) {
+      setTimeout(() => {
+
     let sign;
     let z;
     let min = document.getElementById("Zahl1").value;
@@ -55,11 +62,15 @@ function bildWechseln(istGedrueckt) {
     
     let area = max - min + 1;
     
-    sign = Math.floor(Math.random() * area);
     
-    z = parseFloat(sign) + parseFloat(min);
+      sign = Math.floor(Math.random() * area);
     
-    Zeichen.innerHTML = `${z}`;
+      z = parseFloat(sign) + parseFloat(min);
+      
+      Zeichen.innerHTML = `${z}`;  
+    }, i * 65); // Verzögerung von 250 ms pro Iteration  
+  }
+  
 
 
 

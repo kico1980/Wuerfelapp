@@ -69,6 +69,9 @@ justify-content: center;
             cursor: pointer;
             text-decoration: none; /* Entfernt die Unterstreichung */
             align-items:center;
+            position: fixed; /* Fixiert den Button relativ zum Viewport */
+            bottom: 50px; /* Abstand von 50px zum unteren Rand */
+         
         }
 
         .link-button:hover {
